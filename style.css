@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/fc/d7/b2/fcd7b2ddd6c284644218c9d238d8f50d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.overlay-container {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 10px;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
